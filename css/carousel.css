@@ -1,0 +1,49 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Set minimum height of carousel to prevent background image from moving*/
+.html-carousel {
+    height: 100%;
+}
+.body-carousel {
+    height: 100%;
+}
+.body-carousel > .container {
+    min-height: 90%;
+}
+#carousel-gnt, .carousel-inner {
+    min-height: 70vh;
+}
+
+/* Make controls skinnier and separate from content */
+.carousel-control {
+    width: 5%;
+}
+
+/* Pull down carousel indicators */
+.carousel{
+    padding-bottom: 30px;
+}
+.carousel-indicators {
+    bottom: -20px;
+}
+
+/* Indicator and control color */
+.carousel-control.carousel-control-gnt {
+    background-image: none;
+    text-shadow: none;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    color: #082;
+}
+.carousel-indicators .active {
+    background-color: #082;
+}
+.carousel-indicators li {
+    border-color: #082;
+}
+
+/* Font spacing */
+.carousel h2 {
+    margin-top: 0;
+}
